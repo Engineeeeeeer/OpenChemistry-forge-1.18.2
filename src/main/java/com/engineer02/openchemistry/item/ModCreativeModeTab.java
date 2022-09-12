@@ -7,7 +7,7 @@ public class ModCreativeModeTab {
     public static final CreativeModeTab OPENCHEMISTRYTAB = new CreativeModeTab("openchemistrytab") {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(ModItems.REDFLASK.get());
+            return new ItemStack(ModItems.HYDROGEN.get());
         }
     };
 }
