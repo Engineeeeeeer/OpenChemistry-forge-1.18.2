@@ -1,8 +1,24 @@
 {
-  "item.openchemistry.testitem": "Test Item",
-  "item.openchemistry.redflask": "Red Flask",
-
-  "block.openchemistry.test_block": "Test Blooooock",
-
-  "itemGroup.openchemistrytab": "Open Chemistry"
+ "item.openchemistry.testitem": "Test Item",
+ "item.openchemistry.redflask": "Red Flask",
+ "item.openchemistry.hydrogen": "Hydrogen",
+ "item.openchemistry.helium": "Helium",
+ "item.openchemistry.lithium": "Lithium",
+ "item.openchemistry.beryllium": "Beryllium",
+ "item.openchemistry.boron": "Boron",
+ "item.openchemistry.carbon": "Carbon",
+ "item.openchemistry.nitrogen": "Nitrogen",
+ "item.openchemistry.oxygen": "Oxygen",
+ "item.openchemistry.fluorine": "Fluorine",
+ "item.openchemistry.neon": "Neon",
+ "item.openchemistry.sodium": "Sodium",
+ "item.openchemistry.magnesium": "Magnesium",
+ "item.openchemistry.aluminium": "Aluminium",
+ "item.openchemistry.silicon": "Silicon",
+ "item.openchemistry.phosphorus": "Phosphorus",
+ "item.openchemistry.sulfur": "Sulfur",
+ "item.openchemistry.chlorine": "Chlorine",
+ "item.openchemistry.argon": "Argon",
+ "block.openchemistry.test_block": "Test Block",
+ "itemGroup.openchemistrytab": "Open Chemistry"
 }

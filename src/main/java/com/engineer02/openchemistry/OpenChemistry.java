@@ -2,6 +2,7 @@ package com.engineer02.openchemistry;
 
 import com.engineer02.openchemistry.block.ModBlocks;
 import com.engineer02.openchemistry.item.ModItems;
+import com.engineer02.openchemistry.util.ModUtils;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
@@ -30,8 +31,10 @@ public class OpenChemistry
 
     public OpenChemistry()
     {
-        IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
+        ModUtils.writeLangFile(ModUtils.itemnames,ModUtils.en_usNames);
+        ModUtils.createItemModels(ModUtils.itemnames);
 
+        IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
         ModItems.register(eventBus);
         ModBlocks.register(eventBus);
 
@@ -43,7 +46,7 @@ public class OpenChemistry
 
     private void setup(final FMLCommonSetupEvent event)
     {
-        // some preinit code
+
         LOGGER.info("HELLO FROM PREINIT");
         LOGGER.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
     }
